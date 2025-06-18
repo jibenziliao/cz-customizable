@@ -1,5 +1,5 @@
 {
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "name": "cz-customizable",
   "description": "Commitizen customizable adapter following the conventional-changelog format.",
   "main": "index.js",
@@ -16,14 +16,15 @@
     "prettier": "prettier --single-quote --trailing-comma es5 --write '*.js' 'spec/**/*.js'",
     "commit": "npm run lint && npm run test && ./standalone.js"
   },
-  "homepage": "https://github.com/leoforfree/cz-customizable",
+  "homepage": "https://github.com/jibenziliao/cz-customizable",
   "repository": {
     "type": "git",
-    "url": "https://github.com/leoforfree/cz-customizable.git"
+    "url": "https://github.com/jibenziliao/cz-customizable.git"
   },
   "author": "Leonardo Correa <leonardoanalista@gmail.com>",
   "contributors": [
-    "Aleksey Guryanov <gurianov@gmail.com>"
+    "Aleksey Guryanov <gurianov@gmail.com>",
+    "jibenziliao <1501718947@qq.com>"
   ],
   "license": "MIT",
   "dependencies": {
